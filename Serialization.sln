@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerialization", "BinarySerialization\BinarySerialization.csproj", "{695B3523-62EE-475C-9CCF-5B4D2C62D584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSerialization", "XMLSerialization\XMLSerialization.csproj", "{5EEA559B-8067-42ED-8440-E3CFB0E7E0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONSerialization", "JSONSerialization\JSONSerialization.csproj", "{24BDEE51-5C5F-4420-8D61-4FA166B8E75C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{695B3523-62EE-475C-9CCF-5B4D2C62D584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695B3523-62EE-475C-9CCF-5B4D2C62D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695B3523-62EE-475C-9CCF-5B4D2C62D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695B3523-62EE-475C-9CCF-5B4D2C62D584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEA559B-8067-42ED-8440-E3CFB0E7E0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEA559B-8067-42ED-8440-E3CFB0E7E0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEA559B-8067-42ED-8440-E3CFB0E7E0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEA559B-8067-42ED-8440-E3CFB0E7E0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BDEE51-5C5F-4420-8D61-4FA166B8E75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BDEE51-5C5F-4420-8D61-4FA166B8E75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BDEE51-5C5F-4420-8D61-4FA166B8E75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BDEE51-5C5F-4420-8D61-4FA166B8E75C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
