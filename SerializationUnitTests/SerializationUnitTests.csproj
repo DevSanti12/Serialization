@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BinarySerialization\BinarySerialization.csproj" />
+    <ProjectReference Include="..\DeepCloningApp\DeepCloningApp.csproj" />
     <ProjectReference Include="..\JSONSerialization\JSONSerialization.csproj" />
     <ProjectReference Include="..\Task2_ISerializable_Binary\Task2_ISerializable_Binary.csproj" />
     <ProjectReference Include="..\XMLSerialization\XMLSerialization.csproj" />
