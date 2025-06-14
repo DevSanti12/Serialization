@@ -1,14 +1,7 @@
-using BinarySerialization;
-using JSONSerialization;
-using XMLSerialization;
-
-
 namespace SerializationUnitTests
 {
     public class SerializationUnitTests
     {
-        public object BinarySerializationApp { get; private set; }
-
         [Fact]
         public void TestBinarySerialization()
         {

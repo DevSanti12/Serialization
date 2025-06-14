@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONSerialization", "JSONSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationUnitTests", "SerializationUnitTests\SerializationUnitTests.csproj", "{DE2036A7-8783-4A1A-9201-B2A75EEBE857}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_ISerializable_Binary", "Task2_ISerializable_Binary\Task2_ISerializable_Binary.csproj", "{88F7B177-F1C2-47EF-A1D6-074FA28097CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DE2036A7-8783-4A1A-9201-B2A75EEBE857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE2036A7-8783-4A1A-9201-B2A75EEBE857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE2036A7-8783-4A1A-9201-B2A75EEBE857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F7B177-F1C2-47EF-A1D6-074FA28097CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F7B177-F1C2-47EF-A1D6-074FA28097CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F7B177-F1C2-47EF-A1D6-074FA28097CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F7B177-F1C2-47EF-A1D6-074FA28097CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
