@@ -5,7 +5,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace DeepCloningApp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -42,7 +42,7 @@ namespace DeepCloningApp
         }
 
         // Method to Deep Clone using Binary Serialization
-        static T DeepClone<T>(T obj)
+        public static T DeepClone<T>(T obj)
         {
             if (obj == null)
                 throw new ArgumentNullException(nameof(obj));
@@ -62,7 +62,7 @@ namespace DeepCloningApp
         }
 
         // Utility method to print Department details
-        static void PrintDepartment(Department department)
+        public static void PrintDepartment(Department department)
         {
             Console.WriteLine($"Department Name: {department.DepartmentName}");
             Console.WriteLine("Employees:");
