@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace XMLSerialization
 {
-    [Serializable] // Required for XML Serialization
     public class Employee
     {
+        [XmlAttribute]
         public string EmployeeName { get; set; }
     }
 
